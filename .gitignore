@@ -1,32 +1,11 @@
-# Prerequisites
-*.d
+# Temporary files.
+.#*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Log files.
+*.log
 
-# Precompiled Headers
-*.gch
-*.pch
+# Don't push node_modules - we want the build server to install these.
+node_modules/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+#OSX hidden metadata file
+.DS_Store
