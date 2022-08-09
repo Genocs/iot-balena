@@ -1,7 +1,7 @@
 version: "2"
 
 services:
-  balena-hello-world:
+  genocs-hello-world:
     build: .
     ports:
       - "80:80"
